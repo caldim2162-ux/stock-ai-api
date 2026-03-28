@@ -1,0 +1,39 @@
+# === 환경 변수 / 시크릿 ===
+.env
+
+# === 개인 데이터 (매매 이력, 관심종목 등) ===
+data/recommendation_history.json
+data/order_log.json
+data/scan_history.json
+data/backtest_results.json
+data/watchlist.json
+data/optimized_weights.json
+
+# === 개인 지식 베이스 ===
+knowledge_base/knowledge.json
+
+# === ML 모델 (학습 후 생성되는 파일) ===
+data/stock_xgb_model.json
+data/scaler.pkl
+data/model_info.json
+
+# === 바이너리 / 대용량 데이터 ===
+*.zip
+*.mst
+*.pkl
+
+# === Python 캐시 ===
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# === 가상환경 ===
+venv/
+.venv/
+env/
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
