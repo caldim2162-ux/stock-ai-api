@@ -1,5 +1,6 @@
 # === 환경 변수 / 시크릿 ===
 .env
+주식ai.bat
 
 # === 개인 데이터 (매매 이력, 관심종목 등) ===
 data/recommendation_history.json
